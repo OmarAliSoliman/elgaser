@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  "use strict";
+
   if($('.header-slider').length){
     $('.header-slider').slick({
       dots: true,
@@ -48,10 +50,10 @@ $(document).ready(function(){
         }
       ]
     });
+
   }
 
-
-  AOS.init(); 
+  AOS.init({disable: 'mobile'});
 
 });
 

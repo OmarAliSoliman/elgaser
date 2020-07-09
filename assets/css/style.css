@@ -327,6 +327,10 @@ footer a img {
   .features-1 .feture-img img {
     height: auto;
   }
+
+  .direct-show .col-color {
+    padding-bottom: 50px !important;
+  }
 }
 .header .header-slider-content .header-slider .slider-item h5::after, .features-1 .feture-content h5:after, .all-fetures h5::after, .monitor h5::after, .direct-show .direct-image .content h5::after {
   content: "";
